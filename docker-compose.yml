@@ -1,0 +1,11 @@
+version: '2'
+services:
+    endpoint:
+      build: .
+      image: ecr.vip.ebayc3.com/rnowacoski/sample_docker_endpoint:latest
+      ports:
+          - "8080:8080"
+    endpoint_2:
+      image: ecr.vip.ebayc3.com/rnowacoski/sample_docker_endpoint:latest
+      ports:
+          - "8081:8080"
