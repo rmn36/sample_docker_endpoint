@@ -68,7 +68,7 @@ This project is intended to be a simple introduction to Docker containerization.
 
 1. Install Docker -> https://store.docker.com/search?type=edition&offering=community
     - OPTIONAL: Install and create a Docker Machine -> https://docs.docker.com/machine/ 
-2. Clone this repo or pull image from repository -> `docker pull ecr.vip.ebayc3.com/rnowacoski/sample_docker_endpoint:latest`
+2. Clone this repo
 3. Run container -> `docker-compose up -d`
 4. Curl or go to http://localhost:8080/ in browser
 
@@ -83,11 +83,6 @@ This project is intended to be a simple introduction to Docker containerization.
 - Dockerfile: https://docs.docker.com/engine/reference/builder/
 - Docker Hub: https://hub.docker.com/
 - 5 Key Benefits of Docker: https://dzone.com/articles/5-key-benefits-docker-ci
-
-### EBay Specific Sites
-- Tess: https://tess.io/
-- Tess Container Registry: https://hub.tess.io/
-- Project Image: https://hub.tess.io/repository/rnowacoski/sample_docker_endpoint
 
 ### Further Reading
 - Docker Networking: https://docs.docker.com/network/
